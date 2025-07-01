@@ -1,3 +1,4 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -12,6 +13,7 @@ import AiDevelopment from "./pages/services/ai-development";
 import ServiceNow from "./pages/services/servicenow";
 import Automation from "./pages/services/automation";
 import Consulting from "./pages/services/consulting";
+import AgileTransformation from "./pages/services/agile-transformation";
 import Projects from "./pages/Projects";
 
 const queryClient = new QueryClient();
@@ -32,6 +34,7 @@ const App = () => (
           <Route path="/services/servicenow" element={<ServiceNow />} />
           <Route path="/services/automation" element={<Automation />} />
           <Route path="/services/consulting" element={<Consulting />} />
+          <Route path="/services/agile-transformation" element={<AgileTransformation />} />
           {/* Projects Page */}
           <Route path="/projects" element={<Projects />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

@@ -8,7 +8,7 @@ import WhyDrehill from "../components/WhyDrehill";
 import BlogPreview from "../components/BlogPreview";
 import StickyCTA from "../components/StickyCTA";
 import { SEO } from "../components/SEO";
-import { Cpu, Repeat2, Workflow, BookUser } from "lucide-react";
+import { Cpu, Repeat2, Workflow, BookUser, GitBranch } from "lucide-react";
 
 const serviceDefs = [
   {
@@ -34,6 +34,12 @@ const serviceDefs = [
     title: "Consulting Services",
     desc: "Strategic digital advisory, architecture, innovation consulting and integrations.",
     href: "/services/consulting",
+  },
+  {
+    icon: <GitBranch />,
+    title: "Agile Transformation",
+    desc: "SCRUM, SAFe, KANBAN implementation and enterprise-scale agile methodologies.",
+    href: "/services/agile-transformation",
   },
 ];
 

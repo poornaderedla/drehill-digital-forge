@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import StickyCTA from "../components/StickyCTA";
 import { ServiceCard } from "../components/ServiceCard";
-import { Cpu, Workflow, Repeat2, BookUser, CheckCircle, Users, TrendingUp, Zap } from "lucide-react";
+import { Cpu, Workflow, Repeat2, BookUser, CheckCircle, Users, TrendingUp, Zap, GitBranch } from "lucide-react";
 
 const serviceDefs = [
   {
@@ -31,6 +31,12 @@ const serviceDefs = [
     title: "Consulting Services",
     desc: "Strategic digital advisory, architecture, innovation consulting and integrations.",
     href: "/services/consulting",
+  },
+  {
+    icon: <GitBranch />,
+    title: "Agile Transformation",
+    desc: "SCRUM, SAFe, KANBAN implementation and enterprise-scale agile methodologies.",
+    href: "/services/agile-transformation",
   },
 ];
 
